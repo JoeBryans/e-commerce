@@ -1,0 +1,64 @@
+
+#Navbar{
+    background: #e8e7e7;
+   width: 100%;
+   position: fixed;
+    z-index: 10;
+    height:fit-content;
+}
+#Navbars{
+    display:flex;
+justify-content: space-between;    
+background: #e8e7e7;
+height:40px;
+}
+.Navs{
+position: absolute;
+display: flex;
+flex-direction: column;
+gap:1em;
+right:20em;
+background: #e8e7e7;
+width: 200px;
+padding-right:2.5em;
+padding-top:5px;
+text-align: left;
+z-index: 10;
+
+}
+#Navbars a{
+    font-size:20px ;
+
+}
+.cart{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cartCount{
+    color: #fff;
+    position: absolute;
+    left:5px;
+    top:-1em;
+    font-weight: 500;
+}
+.dropDown{
+    background: #e8e7e7;
+
+}
+ @media (max-width:920px) {
+    .Navs{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right:0.9em;
+        top:3.5em;
+       } 
+        .Navs a{
+            margin-left: .5em;
+        }
+        .dropDown{
+            background: #e8e7e7;
+
+        } 
+} 

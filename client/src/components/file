@@ -1,0 +1,29 @@
+
+ // <div className="bg-slate-600 h-12 w-screen relative  justify-center flex sm:hidden">
+      //   <div className="container  bg-slate-600 flex  items-center  py-2 w-screen">
+      //     <NavLink
+      //       to="/"
+      //       className="text-blue-200 font-mono font-bold flex items-center px-4"
+      //     >
+      //       <h3 c> ShopBite</h3>
+      //     </NavLink>
+      //     <div className="flex w-2/4  items-center justify-end gap-4 relative  ">
+      //       <NavLink className="text-light hover:text-blue-300" to="/Search">
+      //         {" "}
+      //         <FaIcons.FaSearch size={30} className="d-lg-flex d-sm-none " />
+      //       </NavLink>
+      //       <Link className="relative text-slate-200 font-mono hover:text-blue-300 font-semibold flex items-center gap-1">
+      //         <FaIcons.FaShoppingCart size={30} />
+      //         <span className="border rounded-circle w-7 h-7 place-center flex items-center justify-center relative -top-2">
+      //           0
+      //         </span>
+      //       </Link>
+
+      //       <NavLink>
+      //         {/* <span>{users}</span> */}
+      //         {/* <span>{user && user.username}</span> */}
+      //         {/* <img src={pic} alt="" className="w-8  z-20 rounded-circle" /> */}
+      //       </NavLink>
+      //     </div>
+      //   </div>
+      // </div>
